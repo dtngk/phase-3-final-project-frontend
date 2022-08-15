@@ -18,8 +18,8 @@ function ToyForm({addToy, updateToy}){
 
     event.preventDefault();
 
-    if((name !== "") && (toy_type !== "") && (addRating !== "") && (addPrice != "") 
-        && (logo !== "") && (company_id != "") && (store_id) != ""){
+    if((name !== "") && (toy_type !== "") && (addRating !== "") && (addPrice !== "") 
+        && (logo !== "") && (company_id !== "") && (store_id) !== ""){
         const newToy = {
             name: name,
             toy_type: toy_type,
